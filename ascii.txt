@@ -1,0 +1,29 @@
+THERE ARE 256 DISTINCT CHARACTERS USED BY THE IBM COMPATIBLE FAMILY OF MICROCOMPUTERS.
+THERE VALUES RANGE FROM 0 TO 255.THEY CAN BE GROUPED UNDER AS FOLLOWS
+
+ASCII SIZE = 256
+
+CHARACTER TYPE              NO. OF CHARACTERS
+Capital Letters                     26 (65-90)
+Small-case Letters                  26 (97-122)
+Digits                              10 (48-57)
+Special Symbols                     32
+Control Character                   34
+Graphics Character                  128
+TOTAL                               256
+
+
+Short for American Standard Code for Information Interexchange.
+
+ASCII is an standard that assigns letters, numbers, and other characters within the 256 slots available in the 8-bit code. 
+The ASCII decimal (Dec) number is created from binary, which is the language of all computers.
+
+The ASCII table is divided in 3 different sections. Those are as follow:
+
+1. Non printable, system codes between 0 and 31.
+
+2.Lower ASCII, between 32 and 127. This table originates from the older, American systems, which worked on 7-bit character tables.
+
+3. Higher ASCII, between 128 and 255. This portion is programmable; characters are based on the language of your operating system or program you are using. Foreign letters are also placed in this section.
+
+

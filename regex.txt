@@ -1,0 +1,11 @@
+Metacharacter	Description	Example
+.	Matches any single character except a new line	/./ matches anything that has a single character
+^	Matches the beginning of or string / excludes characters	/^PH/ matches any string that starts with PH
+$	Matches pattern at the end of the string	/com$/ matches guru99.com,yahoo.com Etc.
+*	Matches any zero (0) or more characters	/com*/ matches computer, communication etc.
++	Requires preceding character(s) appear at least once	/yah+oo/ matches yahoo
+\	Used to escape meta characters	/yahoo+\.com/ treats the dot as a literal value
+[...]	Character class	/[abc]/ matches abc
+a-z	Matches lower case letters	/a-z/ matches cool, happy etc.
+A-Z	Matches upper case letters	/A-Z/ matches WHAT, HOW, WHY etc.
+0-9	Matches any number between 0 and 9	/0-4/ matches 0,1,2,3,4
