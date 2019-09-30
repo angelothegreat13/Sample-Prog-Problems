@@ -18,10 +18,11 @@ function chunk_array($arr,$num)
 
     for ($i = 0; $i < sizeof($arr); $i++) {
 
-        $last_arr = $chunked_arr[ sizeof($chunked_arr) - 1];
+        $last_arr = $chunked_arr[sizeof($chunked_arr) - 1];
 
         if (!$last_arr || sizeof($last_arr) == $num) {
-            array_push($chunked_arr,[ $arr[$i] ]);
+            $a[] = $arr[$i];
+            array_push($chunked_arr,$a);
         }
         else {
             array_push($last_arr,$arr[$i]);

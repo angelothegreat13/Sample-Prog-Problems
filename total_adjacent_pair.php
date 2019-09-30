@@ -13,7 +13,6 @@ function total_adjacent_pair($num)
         }   
     }
 
-
     // i = 1
     //  if (arr[i] == arr[i-1] && (i == arr.length-1 || arr[i] != arr[i+1])) {
     
