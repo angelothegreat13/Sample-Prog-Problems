@@ -41,6 +41,3 @@ function max_char($str)
 }
 
 echo max_char('MMMMMMMMMMMMMMMMMMMMMMMMMMMICHAEKKKKKKKK');
-
-
-

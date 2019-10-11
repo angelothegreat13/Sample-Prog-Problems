@@ -1,17 +1,21 @@
 <?php 
 
-echo "<center>";
+$rows = 3;
 
-// Increment i 
-for ($i=0; $i < 20 ; $i++) { 
+for ($i = 1; $i <= $rows; $i++) 
+{ 
+    for ($s = 1; $s <= $rows - $i; $s++) { 
+        echo " ";
+    }
+    
+    $k = 0;
 
-	// Increment j to i 
-	for ($j=0; $j < $i; $j++) { 
-		// Display character
-		echo "*";
-	}
+    while ($k != 2*$i-1) {
+        echo "*";
+        $k++;
+    }
 
-	// Add a Break or new Line
-	echo "\n";
+    echo "\n";
 }
-echo "</center>";
+
+// echo $k;

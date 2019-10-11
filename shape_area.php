@@ -1,7 +1,9 @@
 <?php 
 
-function shape_area()
+function shape_area($n)
 {
+
+    
     
 
 }
