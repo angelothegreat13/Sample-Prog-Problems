@@ -20,5 +20,5 @@ function check_if_prime($num)
     }
 }
 
-check_if_prime(12);
+check_if_prime(2);
 

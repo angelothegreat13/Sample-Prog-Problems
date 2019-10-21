@@ -22,6 +22,6 @@ function remove_duplicate_chars($str)
     echo $str;
 }
     
-    $str = "zaabcbd";
+$str = "zaabcbd";
 
 remove_duplicate_chars($str);
