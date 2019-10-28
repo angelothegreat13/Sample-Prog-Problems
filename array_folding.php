@@ -8,9 +8,10 @@ function arrayFolding($a) {
     $n = sizeof($a);
     $sum = 0;
     
-       
-
     for ($i = 0; $i < sizeof($a); $i++) {
+
+        
+
     }
 
     echo $fold;
