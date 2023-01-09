@@ -63,21 +63,31 @@ function get_file_extension()
         attributes - things that the object stores data in, generally variables, properties
         methods - it is the behavior, the functions inside the class
 
-
         Four Principles in OOP
         - Abstraction 
+            - It shows only useful information, remaining are hidden form the end user. Abstraction is the any representation of data in which the implementation details are hidden (abstracted).
+            - Data abstraction is the process of hiding certain details and showing only essential information to the user.
+            - Abstraction can be achieved with either abstract classes or interfaces.
             - Removing the unnecessary
             - Leaving only the useful class member
             - Abstraction depends on requirements or project specification 
             - to simplify reality and focus only on the data and processes relevant to the application being built
         - Encapsulation
+            - The meaning of Encapsulation is to make sure that "sensitive" data is hidden from users. To achieve this, you must:
+                - declare class variables/attributes as private
+                - provide public get and set methods to access and update the value of a private variable.
             - hiding data and complexity 
             - data and the programs that manipulated thos data are bound together and their complexity is hidden.
         - Inheritance 
+            - It is possible to inherit attributes and methods from one class to another. We group the "inheritance concept" into two categories:
+                - 𝘀𝘂𝗯𝗰𝗹𝗮𝘀𝘀 (𝗰𝗵𝗶𝗹𝗱) - the class that inherits from another class
+                - 𝐬𝐮𝐩𝐞𝐫𝐜𝐥𝐚𝐬𝐬 (𝐩𝐚𝐫𝐞𝐧𝐭) - the class being inherited from
+                - To inherit from a class, use the extends keyword.
             - a class can derive its methods and properties from another class, resulting in a hierarchy of classes
             - superclass (parent class) 
             - subclass (child class)
         - Polymorphism
+            - Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
             - a class can implement an inherited method in its own way 
             - different subclasses of the same superclass, can implement their shared interface in different ways
 */
